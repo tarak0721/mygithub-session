@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mouse {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    cursor: not-allowed;
+}
+
+.mouse2 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    cursor: none;
+
+}
+
+/* Add a box shadow for the below image */
+.img1 {
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+    box-shadow: 0 -5px 8px 5px gray;
+    filter: grayscale(50px);
+}
+
+/* Write a code snippet to place the header at the bottom of div  */
+.div4 {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: burlywood;
+    border: 7px double black;
+}
+
+.div4>h1 {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    right: 20%;
+    background-color: lightgray;
+}
+
+/* place a fixed button at bottom right of the screen in html */
+
+.div4>button {
+    padding: 8px 25px;
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: none;
+    bottom: 0;
+    right: 15px;
+}
+
+/*  select last nth child */
+.div4>:nth-last-child(1) {
+    background-color: green;
+}
+
+/* to blur an background image */
+
+#back_blur {
+    position: relative;
+}
+
+.back {
+    background-image: url("https://cdn.pixabay.com/photo/2022/02/18/07/27/lake-7020123__480.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    filter: blur(3px);
+    border: 3px solid blue;
+}
+
+
+
+#back_blur>p {
+    position: absolute;
+    top: 50px;
+    text-align: justify;
+    margin: 0px 30px;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: transparent !important;
+
+}
+
+
+.rect {
+    height: 100px;
+    width: 80px;
+}
+
+.rect>img {
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    position: absolute;
+    outline: 2px solid black;
+}

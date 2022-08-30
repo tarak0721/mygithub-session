@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+   <form action="#" method="GET">
+<fieldset>
+    <legend>Registration details</legend>
+     <label for ="uname">User name</label>
+    <input type="text" name="username" value="" placeholder="enter your name" id="name"/><br/>
+
+    password:<input type="password" name="password"
+    pattern="(?=.*[A-Z].{8}"/> <br/>
+</fieldset>
+   
+    Email:<input type="email" name=user-email><br/>
+    Gender:<input type="radio" name="gender" value="male"/>Male
+    <input type="radio" name="gender" value="female"/>Female<br/>
+    Courses:<input type="checkbox" name="Technology" value="Javascript"/>Javascript
+    <input type="checkbox" name="Technology" value="JSFS"/>JSFS
+<input type="checkbox" name="Technology" value="PYFS"/>PYFS
+<input type="checkbox" name="Technology" value="Data Science"/>Data Science<br/>
+Address:
+<textarea name="" cols="30" rows="10"
+placeholder="enter your address"></textarea><br/>
+DOB:<input type="date" name:"DOB"/><br/>
+Date and Time:<input type="datetime-local" name=""><br/>
+Time:<input type="time" name=""><br/>
+City:
+<select name="places" size="2" multiple>
+    <option value="bangalore">Bangalore</option>
+    <option value="mysore">Mysore</option>
+    <option value="Mangalore">Mangalore</option>
+    <option value="Goa">Goa</option>
+</select>
+<!-- html5:datalist -->
+<input list="colors"/>
+<datalist id="colors">
+    <option value="red">Red</option>
+    <option value="blue">blue</option>
+    <option value="green">green</option>
+    <option value="orange">orange</option><br/>
+</datalist>
+contact<input
+type="tel"
+name="contact"
+pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"
+placeholder="123-4567-892">
+    <button>submit</button>
+   </form>
+</body>
+</html>

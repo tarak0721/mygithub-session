@@ -1,0 +1,27 @@
+:root{
+    --parent-bg:crimson;
+    --children-bg:green;
+
+}
+#inline_prop{
+    background-color:var(--parent-bg);
+}
+
+#inline_prop>div{
+    background-color:var(--children-bg);
+}
+
+#inline_prop>div{
+    display:inline-block;
+}
+/* ====================== */
+.block_prop{
+    background-color: var(--children-bg);
+}
+.block_props span{
+    display:block;
+}
+#none_prop{
+    display:none;
+}
+#content_hidden

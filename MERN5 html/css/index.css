@@ -1,0 +1,8 @@
+@import url("./style1.css");
+@import url("./style2.css");
+/* External SS */
+p{
+    font-size: 30px;
+    color: blueviolet
+    !important;
+}

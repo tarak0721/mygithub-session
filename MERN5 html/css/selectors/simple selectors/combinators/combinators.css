@@ -1,0 +1,36 @@
+/* descendant selector */
+section p{
+    color: crimson;
+}
+section h4{
+    color:brown;
+}
+section h3{
+    color: blue;
+}
+section span{
+    color:blueviolet
+}
+div p{
+    color: aqua;
+}
+/* Child Selector */
+section>p{
+    background-color: darksalmon;
+
+}
+/* adjacent sibling selector */
+section+p{
+    font-size: 40px;
+}
+div+span{
+    font-size: 40px;
+}
+span+h4{
+    font-size: 40px;
+}
+/* general sibling selector */
+p~h4{
+font-style: italic;
+text-align: center;
+}

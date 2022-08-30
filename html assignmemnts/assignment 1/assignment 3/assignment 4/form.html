@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Zoo Application Form</h1>
+    <h5>Please complete the form.Mandatory fields are marked with a</h5>
+    <form action="#" method="GET">
+<fieldset>
+    <legend>Contact details</legend>
+     <label for ="name">Name <span style="color: red;">*</span></label>
+    <input type="text"  name="username" value="" placeholder="enter your name" id="name"/>
+   
+    <br/>
+
+    Telephone:<input type="tel"
+name="Telephone"
+pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"
+placeholder="123-4567-892"><br/>
+ Email:<sup style="color:red;">*<input type="email" name=user-email></sup><br/>
+</fieldset>
+<fieldset>
+    <legend>Personal Information</legend>
+     <label for ="Age">Age</label>
+    <input type="number" name="Age" value="" placeholder="enter your age" id="Age"/><br/>
+
+    Gender:<input type="radio" name="Gender" value="Male">male
+    <input type="radio" name="Gender" value="Female">Female<br/>
+When did you<br/>
+first know you<br/>
+wanted to be a<br/>
+zoo-keeper?</br>
+<textarea
+    name="" cols="30" rows="10">
+</textarea>
+</fieldset>
+<fieldset>
+<table>
+    <legend>Pick your favourite animals</legend>
+    <input type="checkbox" name="Zebra" value="Zebra"/>Zebra
+    <input type="checkbox" name="Technology" value="JSFS"/>Cat
+<input type="checkbox" name="Technology" value="PYFS"/>Anaconda
+<input type="checkbox" name="Technology" value="Data Science"/>Human<br/>
+<input type="checkbox" name="Technology" value="Data Science"/>Elephant
+<input type="checkbox" name="Technology" value="Data Science"/>Wildebeest
+<input type="checkbox" name="Technology" value="Data Science"/>Pigeon
+<input type="checkbox" name="Technology" value="Data Science"/>Crab
+</table>
+</fieldset>
+
+    <button>Submit Application</button>
+   </form>
+</body>
+</html>

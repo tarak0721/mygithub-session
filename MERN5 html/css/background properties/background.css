@@ -1,0 +1,13 @@
+body{
+    /* background-color: aquamarine; */
+    /* background-size:100%;
+    background-image: url("./mont-saint-michel-7380315__340.webp");
+    background-repeat:no-repeat;
+    background-attachment:scroll; */
+    background: url("./mont-saint-michel-7380315__340.webp") coral;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-blend-mode:;
+    background-position: right center;
+
+}

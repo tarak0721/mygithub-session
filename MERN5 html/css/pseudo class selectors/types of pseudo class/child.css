@@ -1,0 +1,12 @@
+div p:first-child{ 
+    background-color: aquamarine;
+}
+div p:last-child{
+    background-color: brown;
+}
+ div p:nth-child(3){ 
+    background-color: blueviolet;
+}
+h1 p:only-child{
+    background-color: chartreuse;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* code snippet to fixed background image in css */
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2019/11/14/16/01/landscape-4626489__480.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            border: 2px solid black;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 7px;
+        }
+
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        .div1 {
+            height: 400px;
+            width: 400px;
+            background-color: chartreuse;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div2 {
+            background-color: aquamarine;
+            height: 200px;
+            width: 200px;
+        }
+
+        .div3 {
+            position: relative;
+        }
+
+        .div3>img {
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+
+        }
+
+        .butt {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: lightblue;
+            color: white;
+        }
+
+        /* to change a input border color when selected */
+        .text {
+            background-color: lightblue;
+            padding: 15px;
+            width: 400px;
+            margin-bottom: 10px;
+        }
+
+        .text>input[type=text]:focus {
+            background-color: lightgray;
+            border: 3px double red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Place a div to corner top-right of the page -->
+    <section class="section1">
+        <div class="div3">
+            <img src="https://cdn.pixabay.com/photo/2021/07/29/11/59/ocean-6507058__480.jpg" alt="">
+        </div>
+        <button class="butt">
+            Download
+        </button>
+    </section>
+    <br>
+    <!-- to change a input border color when selected -->
+    <div class="text">
+        <label for="name">Enter Your Name : </label>
+        <input type="text" name="name" id="name">
+    </div>
+    <!-- code to generate the following table zebra striped (without id or class) -->
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+        </tr>
+        <tr>
+            <td>Adam</td>
+            <td>Johnson</td>
+        </tr>
+    </table>
+    <br>
+    <!-- create a center align a div inside another div -->
+    <div class="div1">
+        <div class="div2">
+            div2
+        </div>
+    </div>
+    <br>
+
+</body>
+
+</html>

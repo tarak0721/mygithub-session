@@ -1,0 +1,23 @@
+/* Universal */
+*{
+    color:purple;
+    background-color: aquamarine;
+}
+/* Element */
+div{
+    color:blue;
+    font-size: 40px;
+}
+/* class selector*/ 
+/* shortcut for class .demo */
+
+.demo{
+text-shadow: 2px 4px rgb(69, 69, 46);
+}
+.test{
+    text-shadow: 6px 5px burlywood;
+}
+/* if we have same property for both class */
+.demo,.test{
+    background-color: bisque;
+}

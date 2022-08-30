@@ -1,0 +1,15 @@
+:root{
+    --brand-color:#FFC933;
+    --primary-background-color:navy;
+}
+
+p{
+    color:var(--brand-color);
+    background-color:var(--primary-background-color)
+}
+h1{
+    color: var(--brand-color);
+}
+span{
+    color:var(--primary-background-color)
+}

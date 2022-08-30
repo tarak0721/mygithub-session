@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="positionindex.css">
+    <style>
+        #main{
+    width:743px;
+    height:315px;
+    background-color:grey;
+    position:relative;
+    text-align: center;
+    margin-top:10px;
+    justify-content: center;
+        }
+#sub1{
+    width: 200px;
+    height: 250px;
+    background-color:white;
+    position: absolute;
+    left:10px;
+    top: 10px;
+    margin-top: 10px;
+}
+#sub2{
+    width: 210px;
+    height: 280px;
+    background-color:white;
+    position: absolute;
+    border: 2px solid blue;
+    z-index: 3;
+    border: ;
+    left:220px;
+    top:0px;
+}
+#sub2:hover{
+    transform: scale(1.1);
+    z-index:1;
+
+
+ 
+
+}
+#btn{
+position: relative;
+bottom: 10px;
+color: white;
+background-color: purple;
+border-radius: 5px;
+border-width: 0px;
+}
+#sub3{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position:absolute;
+    left:444px;
+    top: 10px;
+    margin-top: 10px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="sub1">
+            <h1>Startup</h1>
+            <p>single website</p>
+            <p>Free SSL certificate</p>
+            <h4>$4.50/mo</h4>
+            <button>Buy now</button>
+        </div>
+        <div id="sub2">
+            <button id="btn">Recommended</button>
+        <h1>Baby Plan</h1>
+        <p>unlimited website</p>
+        <p>Free SSL certificate</p>
+        <h4>$6.50/mo</h4>
+        <button>Buy now</button>
+        </div>
+        <div id="sub3">
+            <h1>Business Plan</h1>
+            <p>Unlimited websites</p>
+            <p>Free SSL certificate</p>
+            <p>Free domain included</p>
+            <h4>$8.50/mo</h4>
+            <button>Buy now</button>
+        </div>
+    </div>
+    
+
+    </div>
+</body>
+</html>

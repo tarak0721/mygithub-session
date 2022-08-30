@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+
+}
+
+
+h1 {
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+    font-family: 'Satisfy', cursive;
+    color:black;
+    background-color:white;
+    margin: 0px 0px;
+
+}
+
+nav {
+
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* display: flex;
+            justify-content: space-evenly;
+            text-align: center; */
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    border-bottom: 4px solid red;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: ;
+}
+
+#Artwork {
+    width:100%
+    height: 80px;
+    margin: 69px;
+    padding: 70px;
+    border-radius:50%;
+}
+
+#hotspots {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-left: 110px;
+    overflow: hidden;
+}
+
+#photos {
+    height: 200px;
+    width: 186px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+#photos:hover{
+    transform:scale(1.1);
+    border-radius: 0px;
+}
+
+.div1 {
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+
+}
+
+
+.imgdiv1 {
+    height: 300px;
+    width: 330px;
+    border-radius: 30px;
+}
+
+
+/* fieldset {
+    width: 100%;
+    height:300px;
+    text-align: justify;
+} */
+
+label {
+    margin-left: 30px;
+}
+#Welcome{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: beige;
+    font-size: 10px;
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+
+}
+
+#offers1{
+    background-image: url(./blue-143734__340.webp);
+        background-size:101% 80%;
+        background-repeat: no-repeat;
+        border-radius:50%;
+        position:relative;
+        width:750px;
+        height: 76px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+            font-family: 'Satisfy', cursive;
+}
+#offer2{
+    background-color: aquamarine;
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+
+}
+#offer3{
+background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+    font-family: 'Satisfy', cursive;
+}
+#offers4{
+background-image: url(./blue-143734__340.webp);
+    background-size: 101% 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    width: 750px;
+    height: 76px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+    font-family: 'Satisfy', cursive;
+}
+#offers5{
+    background-image: url(./blue-143734__340.webp);
+        background-size: 101% 80%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        position: relative;
+        width: 750px;
+        height: 76px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+}
+#offers6{
+    background-color: aquamarine;
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+}
+#register{
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+        background-color: aqua;
+        
+
+}
+#btn{
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+        width: 549px;
+        padding: 5px;
+}
+form{
+text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Maven+Pro&family=Mukta&family=Oswald&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+        font-family: 'Satisfy', cursive;
+}
+#Welcome{
+    color: green;
+
+    animation: blinking 1.5s infinite;
+    font-size: 20px;
+}
+
+@keyframes blinking {
+    0% {
+        color: red;
+    }
+
+    47% {
+        color: #000;
+    }
+
+    62% {
+        color: transparent;
+    }
+
+    97% {
+        color: transparent;
+    }
+
+    100% {
+        color: #000;
+    }
+
+}
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 20px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}

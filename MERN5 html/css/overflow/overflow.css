@@ -1,0 +1,20 @@
+div{
+    width:250px;
+    height:200px;
+    border:2px solid;
+    position: relative;
+    top:50px;
+    left:200px;
+    overflow:hidden;
+}
+div>img{
+    width: 250px;
+    height:200px;
+    border-radius: 40px;
+    transition:all 0.3s ease;
+
+}
+div>img:hover{
+    transform: scale(1.1);
+    border-radius:0px;
+}

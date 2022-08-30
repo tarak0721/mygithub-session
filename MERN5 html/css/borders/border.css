@@ -1,0 +1,12 @@
+h1{
+    border:10px double rebeccapurple;
+}
+img{
+    height:206px;
+    width:203px;
+    border-radius: 50%;
+    border-right: 30px solid salmon;
+    border-left: 10px dotted blue;
+    border-bottom: 10px dashed yellowgreen;
+    border-top:10px double aqua;
+}

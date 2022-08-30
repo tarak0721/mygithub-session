@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.change {
+	  display: none;
+	}		
+	.container:hover + .change {
+	  display: block;
+	  color: blue;
+	  font-size: 20px;
+    }
+    .change1{
+        display:block;
+    }
+    .container1:hover + .change1{
+        color:brown;
+        background-color: aquamarine;
+    }
+</style>
+</head>
+<body>
+    <h2>Display an Element on Hover</h2>
+	<div class="container">Bye</div>
+	<div class="change">HELLO</div>
+    <h3>Display style of an element on hover</h3>
+    <div class="container1">Style</div>
+    <div class="change1">hello</div>
+</body>
+</html>

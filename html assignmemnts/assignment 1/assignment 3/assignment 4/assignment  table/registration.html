@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <section id="mainBlock">
+  <article>
+    <fieldset>
+    <legend>Registration details</legend>
+    <form action="#">
+      <div class="form-group1">
+        <label for="university" class="label">University:</label>
+        <input type="text" name="University" placeholder="enter university name">
+      </div>
+      <div class="form-group2">
+        <label for="Institute" class="label">Institute:</label>
+        <input type="text" name='Institute' placeholder="Enter institute">
+      </div>
+      <div class="form-group3">
+        <label for="check" class="label">Branch:</label>
+        <input list="Branch">
+         <datalist id="Branch">
+          <option value="--select--">--select--</option>
+          <option value="CS">CS</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="MECH">MECH</option>
+        </datalist>
+
+      </div>
+      <div class="form-group4">
+        <label for="Degree" class="label">Degree:</label>
+        <input list="Degree">
+         <datalist id="Degree">
+          <option value="--select--">--select--</option>
+          <option value="B.E">B.E</option>
+          <option value="Diploma">Diploma</option>
+          <option value="BCA">BCA</option>
+          
+        </datalist>
+         <input type="radio" name="Degree" class="typeCheck"><span>Pursuing</span>
+            <input type="radio" name="Degree" class="typeCheck"><span>completed</span>
+             <label for="check" class="label"></label>
+        
+       
+      </div>
+      <div class="form-group5">
+        <label for="average CPI" class="label">Average CPI:</label>
+        <input type="Number">
+         <label for="Upto" class="label">Upto</label>
+         <input type="Number"
+          <textarea rows="1" cols="4" ></textarea>
+           <label for="Upto" class="label">Th Semester</label>
+          
+      </div>
+      <div class="form-group6" style="color:aliceblue">
+        <label for="Experience" class="label">Experience:</label>
+        <input type="Number">year
+      </div>
+      <div class="form-group5">
+        <label for="Your website or Blog" class="label">Your website or blog:</label>
+         <input type="text" name="Your Website or Blog" placeholder="http://">
+           </fieldset>
+</body>
+</html>
